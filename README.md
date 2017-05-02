@@ -30,8 +30,30 @@ yarn install
 ```sh
 yarn start
 ```
-
 3. Open it in your browser http://localhost:3033/
+
+## Getting Stared(Linux/Ubuntu/Debian)
+
+1. Clone the repo
+```
+git clone https://github.com/kitze/sizzy.git
+```
+2. If you don't have yarn installed
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt-get update && sudo apt-get install yarn
+
+```
+3. Install the dependencies:
+```
+yarn install
+```
+4. Start the server
+
+```
+yarn start
+```
 
 ## Dev issues
 
